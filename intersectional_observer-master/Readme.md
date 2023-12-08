@@ -48,7 +48,7 @@ For today's workshop we will mainly work with:
 
 - `index.html`
 - `css/animations.css`
-- `js/observer.js`
+- `js/animation-manager.js`
 
 #### Task One:
 
