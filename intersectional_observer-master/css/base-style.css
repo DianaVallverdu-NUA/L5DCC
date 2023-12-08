@@ -1,0 +1,42 @@
+/* ===== ALL DOCUMENT ===== */
+
+* {
+  /* set margin and paddign defaults to zero */
+  margin: 0;
+  padding: 0;
+
+  /* color variables */
+  --blue-bg: #dcedfc;
+  --green-bg: #d4ffd5;
+}
+
+/* ===== BODY ====== */
+
+body {
+  /* flex display properties */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background color */
+  background-color: rgb(253, 253, 245);
+}
+
+/* ===== CONTAIENRS ===== */
+
+.container {
+  /* each container is a 50vw x 70vh box */
+  width: 50vw;
+  height: 70vh;
+  /* add enough margin to isolate divs */
+  margin: 16vh;
+}
+
+/* blue divs */
+.blue {
+  background-color: var(--blue-bg);
+}
+
+/* green div */
+.green {
+  background-color: var(--green-bg);
+}
